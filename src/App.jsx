@@ -1,11 +1,30 @@
-import { useState } from 'react'
-import './App.css'
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Navbar from './components/Navbar.jsx';
+import Footer from './components/Footer.jsx';
+
+
+
 
 function App() {
 
+
   return (
-    <h1>jcj</h1>
-  )
+
+
+
+
+    <Router >
+
+      <Navbar />
+
+      <Footer />
+
+
+    </Router>
+
+
+  );
 }
 
-export default App
+export default App;
